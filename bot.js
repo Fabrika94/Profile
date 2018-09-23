@@ -27,7 +27,7 @@ client.user.setGame(`/help`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-lient.on('message', async msg => {
+client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
     const args = msg.content.split(' ');
