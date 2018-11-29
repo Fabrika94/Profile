@@ -48,7 +48,7 @@ client.on('message', message => {
         .setAuthor(member.user.username, member.user.avatarURL)
         .setThumbnail(member.user.avatarURL)
         .setTitle(`New Member`)
-        .setDescription(`Welecome to Axo Team`)
+        .setDescription(`Welecome to Axo Team Don't Fotget Your Role`)
         .addField(' :bust_in_silhouette:  ',`**[ ${member.guild.memberCount} ]**`,true)
         .setColor('GREEN')
         .setFooter('Axo Team', 'https://cdn.discordapp.com/attachments/492779307236589568/494939812164534293/42648276_706591503039799_7074002451535233024_n.jpg')
